@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/all.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-5">
+                <input type="text" value="0" class="form-control mb-1 bg-secondary text-white py-4" readonly id="display">
+                <div class="grid-container">
+                    <div class="grid-item bg-warning" onclick="calcoperate('divi')">/</div>
+                    <div class="grid-item item-AC bg-danger text-white" onclick="cleardisplay()">AC</div>
+                    <div class="grid-item bg-warning" onclick="calcoperate('multi')">*</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(9)">9</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(8)">8</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(7)">7</div>
+                    <div class="grid-item bg-warning" onclick="calcoperate('dec')">-</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(6)">6</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(5)">5</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(5)">4</div>
+                    <div class="grid-item bg-warning" onclick="calcoperate('inc')">+</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(3)">3</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(2)">2</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc(1)">1</div>
+                    <div class="grid-item bg-warning" onclick="calcoperate('res')">=</div>
+                    <div class="grid-item bg-secondary text-white" onclick="calc('.')">.</div>
+                    <div class="grid-item item-0 bg-secondary text-white" onclick="calc(0)">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>

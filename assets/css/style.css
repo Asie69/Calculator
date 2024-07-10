@@ -1,0 +1,27 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+gap: 4px;
+
+}
+.grid-item{
+border: 1px solid #ccc;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+}
+.grid-item:active{
+    background-color: rgb(96, 96, 224) !important;
+}
+.item-0{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item-AC{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.grid-container>div:hover{
+    border: 1px solid #000;
+}
